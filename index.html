@@ -266,9 +266,8 @@
                 <form action="#" class="footer-form">
                     <p class="footer-title">Subscribe</p>
                     <div class="footer-subscribe-field">
-                        <label for="email" class="footer-subscribe-filed">
-                            <input type="mail" name="email" placeholder="E-mail" class="imput-mail" />
-                        </label>
+                        <label for="user_email" class="footer-subscribe-filed"></label>
+                        <input type="mail" name="email" placeholder="E-mail" id="user_email" class="imput-mail" />
                         <button type="submit" class="hero-button subscribe-button">Subscribe<svg class="footer-send">
                             <use href="./images/icons.svg#icon-send"></use>
                             </svg>
@@ -295,7 +294,7 @@
                 </label>
                 <label class="modal-label">
                     Phone
-                    <input type="number" name="phone" class="form-input" placeholder=" " required>
+                    <input type="tel" name="phone" class="form-input" placeholder=" " required>
                     <svg class="form-icon">
                         <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
@@ -320,13 +319,13 @@
                     <a href="#">Privacy Policy</a>
                 </label>
                 <div class="modal-button-send">
-                    <button type="submit" class="hero-button">Send</button>
+                    <button type="submit" class="modal-send">Send</button>
                 </div>
 
-
-
             </form>
+
         </div> 
+
     </div>
 
     <script src="./js/modal.js"></script>
